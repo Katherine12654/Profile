@@ -1,0 +1,112 @@
+/* Colours & Fonts */
+h1 {
+  	color: pink;
+	font-size: 46px;
+	font-family: Courier, sans-serif;
+}
+h2,h3 {
+  font-size: 24px;
+  background-color: rgb(240, 240, 240);
+  font-family: Courier, sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
+h4 {
+  	color: pink;
+	font-size: 24px;
+	font-family: Courier, sans-serif;
+}
+body {
+  font-size: 24px;
+  background-color: rgb(240, 240, 240);
+  font-family: Courier, sans-serif;
+  text-align: justify;
+  font-weight: lighter;
+}
+
+a {
+	color: rgb(10,10,10);
+	text-decoration: none;
+}
+
+a:hover { 
+	color:pink;	
+}
+
+.container {
+	width: 1200px;
+	margin: 40px auto;
+}
+@media (max-width: 960px){
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px){
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px){
+	.container {
+		width: 300px;
+	}
+}
+@media (max-width: 340px){
+	.container {
+		width: 100px;
+	}
+}
+.card-white {
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius: 4px;
+	margin: 20px, 0px;
+	text-align: center;
+}
+.img.circle { 
+	border-radius: 50%
+}
+.btn-grey {
+	color: grey;
+	background-color: pink;
+	padding: 15px 20px;
+	border-radius: 6px;
+}
+.btn-grey:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-inline i:hover {
+	color: black;
+}
+#profilepic {
+	width: 200px;
+	border-radius: 70%;
+}
+#profilepic:hover {
+	color: pink
+}
+.img-circle {
+	border-radius: 50%;
+	width:145px;
+}
+#lala {
+	width: 200px;
+}
+#Likes, #Social {
+	color: pink;
+}
