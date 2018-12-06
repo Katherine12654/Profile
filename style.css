@@ -5,22 +5,22 @@ h1 {
 	font-family: Courier, sans-serif;
 }
 h2,h3 {
-  font-size: 24px;
-  background-color: rgb(240, 240, 240);
-  font-family: Courier, sans-serif;
-  text-align: center;
-  font-weight: lighter;
+    font-size: 24px;
+    font-family: Courier, sans-serif;
+    text-align: center;
+    font-weight: lighter;
 }
 h4 {
   	color: pink;
 	font-size: 24px;
+	text-align: center;
 	font-family: Courier, sans-serif;
+	align-content: center;
 }
 body {
   font-size: 24px;
   background-color: rgb(240, 240, 240);
   font-family: Courier, sans-serif;
-  text-align: justify;
   font-weight: lighter;
 }
 
@@ -32,10 +32,12 @@ a {
 a:hover { 
 	color:pink;	
 }
-
 .container {
 	width: 1200px;
-	margin: 40px auto;
+	margin: 20px auto;
+	padding: 50px;
+	align-content: center;
+	border-radius: 4px;
 }
 @media (max-width: 960px){
 	.container {
@@ -59,24 +61,26 @@ a:hover {
 }
 .card-white {
 	background-color: white;
-	padding:40px;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
-	border-radius: 4px;
-	margin: 20px, 0px;
+	margin: 30px 0px;
+	padding:30px;
 	text-align: center;
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.4);
+	border-radius: 4px;
 }
 .img.circle { 
 	border-radius: 50%
 }
-.btn-grey {
-	color: grey;
+.btn-pink {
+	color: pink;
 	background-color: pink;
 	padding: 15px 20px;
 	border-radius: 6px;
+	align-content: center;
 }
-.btn-grey:hover {
+.btn-pink:hover {
 	background-color: black;
 	color: white;
+	text-align: center;
 }
 .list-inline {
 	list-style: none;
@@ -93,20 +97,18 @@ a:hover {
 .list-inline i:hover {
 	color: black;
 }
-#profilepic {
-	width: 200px;
-	border-radius: 70%;
-}
-#profilepic:hover {
-	color: pink
-}
 .img-circle {
 	border-radius: 50%;
 	width:145px;
 }
-#lala {
+#profilepic {
 	width: 200px;
+	border-radius: 70%;
 }
 #Likes, #Social {
 	color: pink;
+}
+#lala {
+	width: 200px;
+	border-radius: 50%;
 }
